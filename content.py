@@ -28,7 +28,7 @@ def create_project(title, desc, link):
     """
     return project_info
 
-with open("website-streamlit/projects_description.json", "r") as f:
+with open("streamlit-webpage/projects_description.json", "r") as f:
     project_data = json.load(f)
 
 portfolio_dict = {}

@@ -4,7 +4,7 @@ from PIL import Image
 from content import *
 from utilities import *
 
-PAGE_ICON = 'website-streamlit/images/icon.jpg'
+PAGE_ICON = 'streamlit-webpage/images/icon.jpg'
 LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
 LOTTIE_ANIMATION_SKILL = load_animation(lottie_skill_url)
 
@@ -14,7 +14,7 @@ st.set_page_config(page_title="Hengki's Portofolio", page_icon=Image.open(f"{PAG
 
 st.subheader("Data Wanderer")
 st.title("Exploring the World of Data and Beyond")
-local_css("website-streamlit/style/form_style.css") #to hide streamlit brand
+local_css("streamlit-webpage/style/form_style.css") #to hide streamlit brand
 
 
 
@@ -97,6 +97,6 @@ elif st.session_state.section_index == 3:
 
         for i, (image_filename, description) in enumerate(image_descriptions.items()):
             with gallery_cols[i % num_columns]:
-                image_path = f"website-streamlit/images/{image_filename}"
+                image_path = f"streamlit-webpage/images/{image_filename}"
                 image = Image.open(image_path)
                 st.image(image, caption=description, use_column_width=True) 
