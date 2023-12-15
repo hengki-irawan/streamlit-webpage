@@ -2,3 +2,4 @@ streamlit
 streamlit-lottie
 Pillow
 json
+pip3
