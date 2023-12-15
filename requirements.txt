@@ -1,0 +1,6 @@
+streamlit
+streamlit-lottie
+Pillow
+bs4
+shutil
+pathlib

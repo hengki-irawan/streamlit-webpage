@@ -1,0 +1,47 @@
+{
+    "sphirogram_dots": {
+        "name": "Sphirogram & Dots",
+        "description": "This project was undertaken to practice python skills by using turtle library.",
+        "github_link": "https://github.com/hengki-irawan/learning-and-projects/tree/master/0_portfolio/Python",
+        "video_path": "website-streamlit/videos/art_turtle_library.mov"
+    },
+
+    "python_etl_project": {
+        "name": "Simple ETL Proccess",
+        "description": "This exercise involved ingesting data from the football-data.org API, transforming it into CSV format, storing it in an Amazon S3 bucket, and conducting a small-scale analysis on Redshift.",
+        "github_link": "https://github.com/hengki-irawan/learning-and-projects/tree/master/0_portfolio/Website-streamlit",
+        "video_path": null
+        
+    },
+
+    "datawrangling_pyspark": {
+        "name": "Data Wrangling with PySpark",
+        "description": "Utilise PySpark for data wrangling and analysis.",
+        "github_link": "https://github.com/hengki-irawan/learning-and-projects/tree/ac32a24c44f64b5903f80ea594258a0cb56cf659/0_portfolio/Data%20wrangling%20with%20spark",
+        "video_path": null
+        
+    },
+
+    "webpage": {
+        "name": "Webpage Deployment",
+        "description": "Create a professional online presence to showcase personal projects using Streamlit and Python-based code.",
+        "github_link": "https://github.com/hengki-irawan/learning-and-projects/tree/master/0_portfolio/Website-streamlit",
+        "video_path": null
+        
+    },
+
+    "marketing_nanodegreee": {
+        "name": "Marketing Analytics Nanodegree projects",
+        "description": "The nanodegree was undertaken to understand marketing practices and analytics methodologies, including how to visualize data on Tableau and analyze marketing data effectively through Google Analytics.",
+        "github_link": "https://github.com/hengki-irawan/learning-and-projects/tree/ac32a24c44f64b5903f80ea594258a0cb56cf659/0_Portfolio/Nanodegree/Marketing%20Analytics%20Nanodegree%20projects",
+        "video_path": null
+        
+    }
+}
+
+
+
+
+
+
+
