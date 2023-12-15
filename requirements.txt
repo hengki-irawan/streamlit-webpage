@@ -2,4 +2,4 @@ streamlit
 streamlit-lottie
 Pillow
 json
-pip3
+pip==23.3.1
