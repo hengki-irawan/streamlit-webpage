@@ -4,7 +4,6 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 from content import *
 from utilities import *
-import streamlit.components.v1 as components
 
 
 PAGE_ICON = 'images/icon.jpg'
