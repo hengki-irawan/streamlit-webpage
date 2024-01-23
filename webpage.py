@@ -12,7 +12,7 @@ LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
 
 # Main Header
 st.set_page_config(page_title="Hengki's gallery", page_icon=Image.open(f"{PAGE_ICON}"))
-st.subheader(f"""<div style="color: rgb(251,190,91);Silent Frames</div>""")
+st.subheader("Silent Frames")
 st.title("Capturing Quiet Moments: Through My Lens")
 local_css("style/form_style.css") #to hide streamlit brand
 
@@ -45,7 +45,7 @@ if st.session_state.section_index == 0:
             """, unsafe_allow_html=True)
 
         with aboutme_section:
-            st.markdown(f"""<div style="color: rgb(251,190,91);">**About**</div>""")
+            st.markdown("**About**")
             st.markdown(f"""<div style="color: rgb(251,190,91);">{about}</div>""", unsafe_allow_html=True)
         
             
