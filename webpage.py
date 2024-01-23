@@ -14,8 +14,11 @@ LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
 st.set_page_config(page_title="Hengki's gallery", page_icon=Image.open(f"{PAGE_ICON}"))
 st.subheader("Silent Frames")
 st.title("Capturing Quiet Moments: Through My Lens")
-local_css("style/form_style.css") #to hide streamlit brand
+# local_css("style/form_style.css") #to hide streamlit brand
+with open('style/form_style.css') as f:
+    css = f.read()
 
+st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
 # Buttons
 with st.container():
