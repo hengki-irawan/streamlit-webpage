@@ -25,7 +25,7 @@ with st.container():
 
     # Display buttons
     for i, button in enumerate([photo_gallery_button, home_button]):
-        if button.button(f"""<div style="background-color: #1e9ae0;"{sections[i]}/div>""", use_container_width=True):
+        if button.button(f"{sections[i]}", use_container_width=True):
             st.session_state.section_index = i
 
 
@@ -45,7 +45,7 @@ if st.session_state.section_index == 0:
             """, unsafe_allow_html=True)
 
         with aboutme_section:
-            st.markdown("**About**")
+            st.markdown(f"""<p style=color: rgb(251,190,91);>"""+"**About**"+"""</p>""")
             st.markdown(f"""<div style="color: rgb(251,190,91);">{about}</div>""", unsafe_allow_html=True)
         
             
