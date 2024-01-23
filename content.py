@@ -19,6 +19,3 @@ for index in range(len(image_logs)):
     image_path = image_logs.loc[index, 'image_path']
     description = image_logs.loc[index, 'descriptions']
     images[image_path] = description
-
-
-
