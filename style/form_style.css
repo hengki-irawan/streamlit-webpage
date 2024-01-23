@@ -11,9 +11,10 @@ button[type=submit] {
 button[type=submit]:hover {
   background-color: #1e9ae0;
 }
-  #MainMenu {visibility: hidden;}
-  footer {visibility: hidden;}
-  header {visibility: hidden;}
+  
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
 
 
   
