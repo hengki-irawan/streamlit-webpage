@@ -25,7 +25,7 @@ with st.container():
 
     # Display buttons
     for i, button in enumerate([photo_gallery_button, home_button]):
-        if button.button(f"{sections[i]}", use_container_width=True):
+        if button.button(f"""<div style="background-color: #1e9ae0;"{sections[i]}/div>""", use_container_width=True):
             st.session_state.section_index = i
 
 
