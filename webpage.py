@@ -16,25 +16,7 @@ st.subheader("Silent Frames")
 st.title("Capturing Quiet Moments: Through My Lens")
 local_css("style/form_style.css") #to hide streamlit brand
 
-components.html(
-    html="""
-    <style>
-    button[type=submit] {
-  background-color: #aa210f;
-  color: rgb(251,190,91);
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  
-}
 
-/* When moving the mouse over the submit button, add a darker green color */
-button[type=submit]:hover {
-  background-color: #1e9ae0;
-    
-}
-""")
 # Buttons
 with st.container():
     photo_gallery_button, home_button = st.columns(2)

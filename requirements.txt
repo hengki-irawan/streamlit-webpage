@@ -1,6 +1,5 @@
 streamlit
 streamlit-lottie
 streamlit_analytics
-streamlit.components.v1
 Pillow
 pandas
