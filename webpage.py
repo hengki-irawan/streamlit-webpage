@@ -45,8 +45,8 @@ if st.session_state.section_index == 0:
             """, unsafe_allow_html=True)
 
         with aboutme_section:
-            st.markdown(f'<div style="color: rgb(251,190,91)"**About**</div>')
-            st.markdown(f"{about}", unsafe_allow_html=True)
+            st.markdown("**About**")
+            st.markdown(f"""<div style="color: rgb(251,190,91);">{about}</div>""", unsafe_allow_html=True)
         
             
 
