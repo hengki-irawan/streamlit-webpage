@@ -45,13 +45,13 @@ if st.session_state.section_index == 0:
             """, unsafe_allow_html=True)
 
         with aboutme_section:
-            st.markdown(f"""<div style="color: rgb(251,190,91); font-weight: bold;">""" "About" """</div>""",  unsafe_allow_html=True)
+            st.markdown(f"""**<div style="color: rgb(251,190,91);">""" "About" """</div>**""",  unsafe_allow_html=True)
             st.markdown(f"""<div style="color: rgb(251,190,91);">{about}</div>""", unsafe_allow_html=True)
         
             
 
 elif st.session_state.section_index == 1:
-   with st.container(f"""<div style="color: rgb(251,190,91); font-weight: bold;"></div>""",  unsafe_allow_html=True):
+   with st.container():
         st.subheader("Photo Gallery")
         num_columns = 3
         num_rows = len(images) // num_columns + (len(images) % num_columns > 0)
