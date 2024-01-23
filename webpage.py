@@ -33,7 +33,24 @@ if "section_index" not in st.session_state:
     st.session_state.section_index = 0            
 
 # Display content based on the selected section
-if st.session_state.section_index == 1:
+if st.session_state.section_index == 0:
+    with st.container():
+        image_section, aboutme_section = st.columns((1, 3))
+        with image_section:
+            st_lottie(LOTTIE_ANIMATION_ABOUTME)
+            st.markdown(f"""
+            <div style="text-align: center;">
+                <p style="font-weight: bold;"><a href="{linkedin_url}" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            </div>
+            """, unsafe_allow_html=True)
+
+        with aboutme_section:
+            st.markdown(f'<div style="color: rgb(251,190,91)"**About**</div>')
+            st.markdown(f"{about}", unsafe_allow_html=True)
+        
+            
+
+elif st.session_state.section_index == 1:
    with st.container():
         st.subheader("Photo Gallery")
         num_columns = 3
@@ -46,20 +63,4 @@ if st.session_state.section_index == 1:
                 image_paths = f"{image_path}"
                 image = Image.open(image_paths)
                 st.image(image, caption=description, use_column_width=True) 
-            
-
-elif st.session_state.section_index == 0:
-    with st.container():
-        image_section, aboutme_section = st.columns((1, 3))
-        with image_section:
-            st_lottie(LOTTIE_ANIMATION_ABOUTME)
-            st.markdown(f"""
-            <div style="text-align: center;">
-                <p style="font-weight: bold;"><a href="{linkedin_url}" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-            </div>
-            """, unsafe_allow_html=True)
-
-        with aboutme_section:
-            st.markdown("**About**")
-            st.markdown(f"{about}", unsafe_allow_html=True)
     
