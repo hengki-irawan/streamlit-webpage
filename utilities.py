@@ -26,9 +26,4 @@ def local_css(file_name):
         st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 
-def display_content(selected_option):
-    for key, project_details in portfolio.items():
-        if selected_option == key:
-            st.markdown(project_details[0], unsafe_allow_html=True)
-
 
