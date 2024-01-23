@@ -22,7 +22,7 @@ with st.container():
     photo_gallery_button, home_button = st.columns(2)
 
     # Define sections
-    sections = [":camera: Photo Gallery", ":technologist: About me"]
+    sections = [":technologist: About", ":camera: Photo Gallery"]
 
     # Display buttons
     for i, button in enumerate([photo_gallery_button, home_button]):
@@ -34,7 +34,7 @@ if "section_index" not in st.session_state:
     st.session_state.section_index = 0            
 
 # Display content based on the selected section
-if st.session_state.section_index == 0:
+if st.session_state.section_index == 1:
    with st.container():
         st.subheader("Photo Gallery")
         num_columns = 3
@@ -49,7 +49,7 @@ if st.session_state.section_index == 0:
                 st.image(image, caption=description, use_column_width=True) 
             
 
-elif st.session_state.section_index == 1:
+elif st.session_state.section_index == 0:
     with st.container():
         image_section, aboutme_section = st.columns((1, 3))
         with image_section:
@@ -61,6 +61,6 @@ elif st.session_state.section_index == 1:
             """, unsafe_allow_html=True)
 
         with aboutme_section:
-            st.markdown("**About Me**")
-            st.markdown(f"{about_me}", unsafe_allow_html=True)
+            st.markdown("**About**")
+            st.markdown(f"{about}", unsafe_allow_html=True)
     
