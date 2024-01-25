@@ -13,7 +13,7 @@ LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
 
 # Main Header
 st.set_page_config(page_title="Hengki's gallery", page_icon=Image.open(f"{PAGE_ICON}"))
-st.subheader("Silent Frames")
+st.subheader(":orange[Silent Frames]")
 st.title(":orange[Capturing Quiet Moments: Through My Lens]")
 local_css("style/form_style.css") #to hide streamlit brand
 # color = st.color_picker('Pick A Color', 'FBBE5B')
@@ -23,7 +23,7 @@ with st.container():
     photo_gallery_button, home_button = st.columns(2)
 
     # Define sections
-    sections = [":technologist: About", ":camera: Photo Gallery"]
+    sections = [":technologist: :orange[About]", ":camera: :orange[Photo Gallery]"]
 
     # Display buttons
     for i, button in enumerate([photo_gallery_button, home_button]):
