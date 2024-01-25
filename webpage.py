@@ -8,15 +8,15 @@ from utilities import *
 
 PAGE_ICON = 'images/icon.jpg'
 LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
-color = st.color_picker('Pick A Color', '#FBBE5B')
+
 
 
 # Main Header
 st.set_page_config(page_title="Hengki's gallery", page_icon=Image.open(f"{PAGE_ICON}"))
 st.subheader("Silent Frames")
-st.title(":color[Capturing Quiet Moments: Through My Lens]")
+st.color_picker(st.title("Capturing Quiet Moments: Through My Lens"), 'FBBE5B')
 local_css("style/form_style.css") #to hide streamlit brand
-
+# color = st.color_picker('Pick A Color', 'FBBE5B')
 
 # Buttons
 with st.container():
