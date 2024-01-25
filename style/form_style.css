@@ -1,5 +1,5 @@
 button[type=submit] {
-  /* background-color: #aa210f; */
+  background-color: #aa210f;
   color: rgb(251,190,91);
   padding: 12px 20px;
   border: none;
@@ -8,7 +8,7 @@ button[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-button[type=submit]:hover {
+.stButton>button[type=submit]:hover {
   background-color: #1e9ae0;
 }
   
