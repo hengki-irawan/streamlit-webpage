@@ -15,8 +15,18 @@ LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
 st.set_page_config(page_title="Hengki's gallery", page_icon=Image.open(f"{PAGE_ICON}"))
 st.subheader(":orange[Silent Frames]")
 st.title(":orange[Capturing Quiet Moments: Through My Lens]")
-local_css("style/form_style.css") #to hide streamlit brand
-# color = st.color_picker('Pick A Color', 'FBBE5B')
+# local_css("style/form_style.css") #to hide streamlit brand
+
+s = f"""
+<style>
+div.stButton > button:hover {{
+ color: #1e9ae0;
+}}
+</style>
+"""
+
+st.markdown(s, unsafe_allow_html=True)
+
 
 # Buttons
 with st.container():
