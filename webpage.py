@@ -9,11 +9,21 @@ from utilities import *
 PAGE_ICON = 'images/icon.jpg'
 LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
 
+
+
 # Main Header
 st.set_page_config(page_title="Hengki's gallery", page_icon=Image.open(f"{PAGE_ICON}"))
 st.subheader("Silent Frames")
 st.title("Capturing Quiet Moments: Through My Lens")
 local_css("style/form_style.css") #to hide streamlit brand
+
+st.markdown("""
+<style>
+
+.stButton>button[type=submit]:hover {
+  background-color: #1e9ae0;
+}
+</style>""", unsafe_allow_html=True)
 
 # Buttons
 with st.container():
