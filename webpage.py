@@ -20,6 +20,11 @@ st.title("Capturing Quiet Moments: Through My Lens")
 st.markdown("""
 <style>
 
+stTitle>title {
+color: rgb(251,190,91);     
+}            
+
+                        
 .stButton>button[type=submit]:hover {
   background-color: #1e9ae0;
 }
