@@ -74,5 +74,5 @@ elif st.session_state.section_index == 1:
             with gallery_cols[i % num_columns]:
                 image_paths = f"{image_path}"
                 image = Image.open(image_paths)
-                st.image(image, caption=f':orange[{description}]', use_column_width=True) 
+                st.image(image, caption=description, use_column_width=True) 
     
