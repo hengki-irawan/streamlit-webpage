@@ -71,9 +71,9 @@ elif st.session_state.section_index == 1:
         gallery_cols = st.columns(num_columns)
 
         for i, (image_path, description) in enumerate(images.items()):
+            desc = st.write(f':orange[{description}]')
             with gallery_cols[i % num_columns]:
                 image_paths = f"{image_path}"
                 image = Image.open(image_paths)
-                desc = st.write(f':orange[{description}]')
                 st.image(image, caption=desc, use_column_width=True) 
     
