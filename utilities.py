@@ -15,15 +15,15 @@ def load_animation(url):
     return response.json()
 
 
-def local_css(file_name):
-    """
-    Inject local CSS styles into a Streamlit app.
-    Parameters: file_name (str): The path to the CSS file.
-    Example usage: local_css("path/to/your/style.css")
-    """
-    with open(file_name, "r") as file:
-        css = file.read()
-        st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
+# def local_css(file_name):
+#     """
+#     Inject local CSS styles into a Streamlit app.
+#     Parameters: file_name (str): The path to the CSS file.
+#     Example usage: local_css("path/to/your/style.css")
+#     """
+#     with open(file_name, "r") as file:
+#         css = file.read()
+#         st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 
 
