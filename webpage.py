@@ -64,7 +64,6 @@ if st.session_state.section_index == 0:
             
 
 elif st.session_state.section_index == 1:
-   print("Current Working Directory:", os.getcwd())
    with st.container():
         st.subheader(":orange[Photo Gallery]")
         num_columns = 3
