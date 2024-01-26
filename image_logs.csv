@@ -1,33 +1,72 @@
 country_region_nk,file_name,descriptions,image_path
-was,hotairballlon_cappadocia,Hot air balloon in Cappadocia,images/was/was_hotairballlon_cappadocia.JPG
-weu,amsterdam_canal,Amsterdam's canal,images/weu/weu_amsterdam_canal.JPG
-weu,denhaag_art,Art Gallery in The Hague,images/weu/weu_denhaag_art.JPG
-was,baku_heydar,"Heydar Aliyev Center, Baku",images/was/was_baku_heydar.JPG
-seu,seville_alcazar,Royal Alcázar of Seville,images/seu/seu_seville_alcazar.JPG
-was,gundam_riyadh,Gundam Glory in Riyadh,images/was/was_gundam_riyadh.JPG
-seu,porto,Amazing Porto,images/seu/seu_porto.JPG
-naf,alexandria,"Sunset in Alexandria, Egypt",images/naf/naf_alexandria.JPG
-was,clock_tower_makkah,"The Clock Towers, Makkah",images/was/was_clock_tower_makkah.JPG
-weu,autumn_delft,Autumn in Delft,images/weu/weu_autumn_delft.JPG
-cas,charyn_almaty,"Charyn Canyon Serenity, Almaty",images/cas/cas_charyn_almaty.JPG
-eeu,old_town_prague,Prague Gate Charm,images/eeu/eeu_old_town_prague.JPG
-eeu,krumlov,Krumlov's Magic Scene,images/eeu/eeu_krumlov.JPG
-eeu,snowy_ljubljana,Snowy Ljubljana Beauty,images/eeu/eeu_snowy_ljubljana.JPG
-was,kaaba,Kaaba Crowd Majesty,images/was/was_kaaba.JPG
-weu,lille,Lille's Allure,images/weu/weu_lille.JPG
-cas,rudaki,Tajikistan's Rudaki Park,images/cas/cas_rudaki.JPG
-was,amman,Amman's Cityscape,images/was/was_amman.JPG
-weu,annecy,Vintage Vine Annecy,images/weu/weu_annecy.JPG
-was,petra,Enchanting Petra,images/was/was_petra.JPG
-was,burjkhalifa,Burj Khalifa Majesty,images/was/was_burjkhalifa.JPG
-cas,madrasah,Uzbekistan's Madrash,images/cas/cas_madrasah.JPG
-eeu,bratislava,Bratislava's Charm,images/eeu/eeu_bratislava.JPG
-was,armenia,Armenia's Cidatel View,images/was/was_armenia.JPG
-was,manama,Bahrain's Manama Tower,images/was/was_manama.JPG
-naf,salaheldin,Egypt's Salah El Din,images/naf/naf_salaheldin.JPG
-was,amman_citadel,Amman Citadel Grace,images/was/was_amman_citadel.JPG
-was,bahrain,Bahrain Beauty,images/was/was_bahrain.JPG
-seas,la,"Rice Fields, Hill Backdrop",images/seas/seas_la.JPG
-seu,granada,Granada's Lively Crowd,images/seu/seu_granada.JPG
-was,souk_qatar,Qatar Souk Delight,images/was/was_souk_qatar.JPG
-eeu,winter_ljubljana,Snow-Covered Branches,images/eeu/eeu_winter_ljubljana.JPG
+was,hotairballlon_cappadocia,"Hot air balloon, Turkiye",streamlit-webpage/images/was/was_hotairballlon_cappadocia.JPG
+weu,amsterdam_canal,"Amsterdam's canal, Netherlands",streamlit-webpage/images/weu/weu_amsterdam_canal.JPG
+weu,denhaag_art,Art Gallery in The Hague,streamlit-webpage/images/weu/weu_denhaag_art.JPG
+was,baku_heydar,"Heydar Aliyev Center, Azerbaijan",streamlit-webpage/images/was/was_baku_heydar.JPG
+seu,seville_alcazar,"Royal Alcázar of Seville, Spain",streamlit-webpage/images/seu/seu_seville_alcazar.JPG
+was,gundam_riyadh,"Gundam Glory in Riyadh, KSA",streamlit-webpage/images/was/was_gundam_riyadh.JPG
+seu,porto,"Amazing Porto, Portugal",streamlit-webpage/images/seu/seu_porto.JPG
+naf,alexandria,"Sunset in Alexandria, Egypt",streamlit-webpage/images/naf/naf_alexandria.JPG
+was,clock_tower_makkah,"The Clock Towers, KSA",streamlit-webpage/images/was/was_clock_tower_makkah.JPG
+weu,autumn_delft,"Autumn in Delft, Netherlands",streamlit-webpage/images/weu/weu_autumn_delft.JPG
+cas,charyn_almaty,"Charyn Canyon Serenity, Almaty",streamlit-webpage/images/cas/cas_charyn_almaty.JPG
+eeu,old_town_prague,"Prague Gate Charm, Czechia",streamlit-webpage/images/eeu/eeu_old_town_prague.JPG
+eeu,krumlov,"Krumlov's Magic Scene, Czechia",streamlit-webpage/images/eeu/eeu_krumlov.JPG
+eeu,snowy_ljubljana,"Snowy Ljubljana Beauty, Slovenia",streamlit-webpage/images/eeu/eeu_snowy_ljubljana.JPG
+was,kaaba,"Kaaba Crowd Majesty, KSA",streamlit-webpage/images/was/was_kaaba.JPG
+weu,lille,"Lille's Allure, France",streamlit-webpage/images/weu/weu_lille.JPG
+cas,rudaki,"Dushanbe's Rudaki Park, Tajikistan",streamlit-webpage/images/cas/cas_rudaki.JPG
+was,amman,"Amman's Cityscape, Jordan",streamlit-webpage/images/was/was_amman.JPG
+weu,annecy,"Vintage Vine Annecy, France",streamlit-webpage/images/weu/weu_annecy.JPG
+was,petra,"Enchanting Petra, Jordan",streamlit-webpage/images/was/was_petra.JPG
+was,burjkhalifa,"The Burj Khalifa, UAE",streamlit-webpage/images/was/was_burjkhalifa.JPG
+cas,madrasah,Uzbekistan's Madrasa,streamlit-webpage/images/cas/cas_madrasah.JPG
+eeu,bratislava,"Bratislava's Charm, Slovekia",streamlit-webpage/images/eeu/eeu_bratislava.JPG
+was,armenia,Armenia's Cidatel View,streamlit-webpage/images/was/was_armenia.JPG
+was,manama,"The Manama Tower, Bahrain",streamlit-webpage/images/was/was_manama.JPG
+naf,salaheldin,"Salah El Din Citadel, Egypt",streamlit-webpage/images/naf/naf_salaheldin.JPG
+was,amman_citadel,"Amman Citadel Grace, Jordan",streamlit-webpage/images/was/was_amman_citadel.JPG
+was,bahrain,Bahrain Beauty,streamlit-webpage/images/was/was_bahrain.JPG
+seas,la,"Rice Fields, Indonesia",streamlit-webpage/images/seas/seas_la.JPG
+seu,granada,"Granada's Lively Crowd, Spain",streamlit-webpage/images/seu/seu_granada.JPG
+was,souk_qatar,"Souk Delight, Qatar",streamlit-webpage/images/was/was_souk_qatar.JPG
+eeu,winter_ljubljana,"Snow-Covered Branches, Slovenia",streamlit-webpage/images/eeu/eeu_winter_ljubljana.JPG
+was,pamukkale,"White Travertine Terraces, Turkiye",streamlit-webpage/images/was/was_pamukkale.JPG
+seas,siam_reap_temple,"Sacred Temples of Siem Reap, Cambodia",streamlit-webpage/images/seas/seas_siam_reap_temple.JPG
+was,istanbul,"Istanbul's Unique Blend of Cultures, Turkey",streamlit-webpage/images/was/was_istanbul.JPG
+seas,siam_reap_temple_2,"More Temples of Siem Reap, Cambodia",streamlit-webpage/images/seas/seas_siam_reap_temple_2.JPG
+seas,sg_flower,Singapore's Blossoming Gardens,streamlit-webpage/images/seas/seas_sg_flower.JPG
+naf,hassan_mosque,"Majestic Beauty of Hassan II Mosque, Morocco",streamlit-webpage/images/naf/naf_hassan_mosque.JPG
+seas,jogja_beach,"Tropical Paradise, Jogja's Pristine Beach",streamlit-webpage/images/seas/seas_jogja_beach.JPG
+weu,berlin,"Vibrant Scenes in the Heart of Berlin, Germany",streamlit-webpage/images/weu/weu_berlin.JPG
+seu,spider_bilbao,"Captivating Spider Sculpture in Bilbao, Spain",streamlit-webpage/images/seu/seu_spider_bilbao.JPG
+seu,rome,"Eternal City's Timeless Charm, Italy",streamlit-webpage/images/seu/seu_rome.JPG
+seas,singapore,Singapore's Urban Oasis,streamlit-webpage/images/seas/seas_singapore.JPG
+weu,gavarnie,"Gavarnie's Spectacular Natural Beauty, France",streamlit-webpage/images/weu/weu_gavarnie.JPG
+weu,brandenburg,Brandenburg Gate,streamlit-webpage/images/weu/weu_brandenburg.JPG
+weu,ghent,"Charming Architecture in Ghent, Belgium",streamlit-webpage/images/weu/weu_ghent.JPG
+weu,toulouse,"Toulouse's Artistic and Cultural Delights, France",streamlit-webpage/images/weu/weu_toulouse.JPG
+seas,batu_cave,"Batu Caves, Malaysia",streamlit-webpage/images/seas/seas_batu_cave.JPG
+seu,dubrovnik,"Dubrovnik's Coastal Elegance, Croatia",streamlit-webpage/images/seu/seu_dubrovnik.JPG
+seas,siam_reap_tree,"Lush Trees Surrounding Siem Reap's Temple, Cambodia",streamlit-webpage/images/seas/seas_siam_reap_tree.JPG
+seas,twin_tower,"The Twin Towers, Malaysia",streamlit-webpage/images/seas/seas_twin_tower.JPG
+weu,biarritz,"Biarritz's Coastal Bliss, France",streamlit-webpage/images/weu/weu_biarritz.JPG
+seu,dubrovnik_port,"Port Views of Dubrovnik's Maritime Charm, Croatia",streamlit-webpage/images/seu/seu_dubrovnik_port.JPG
+weu,home_lake,"Serenity by the Lakeside, France",streamlit-webpage/images/weu/weu_home_lake.JPG
+weu,giants_causeway,"Majestic Wonders of the Giants Causeway, Northern Ireland",streamlit-webpage/images/weu/weu_giants_causeway.JPG
+seu,zaragoza_plaza,Zaragoza's Plaza del Pilar,streamlit-webpage/images/seu/seu_zaragoza_plaza.JPG
+seas,phnompenh,"Phnom Penh's Blend of History and Modernity, Cambodia",streamlit-webpage/images/seas/seas_phnompenh.JPG
+seu,mostar,Mostar's Old Bridge,streamlit-webpage/images/seu/seu_mostar.JPG
+seu,sansebastian,"Sansebastian's Coastal Elegance, Spain",streamlit-webpage/images/seu/seu_sansebastian.JPG
+seas,jogja_horse,"Jogja's Countryside, Indonesia",streamlit-webpage/images/seas/seas_jogja_horse.JPG
+seas,jogja_boats,"Jogja's Waterways, Indonesia",streamlit-webpage/images/seas/seas_jogja_boats.JPG
+weu,vienna,"Vienna's Imperial Grandeur, Austria",streamlit-webpage/images/weu/weu_vienna.JPG
+weu,stives,"St. Ives, United Kingdom",streamlit-webpage/images/weu/weu_stives.JPG
+seas,merdeka_square,"Merdeka Square, Malaysia",streamlit-webpage/images/seas/seas_merdeka_square.JPG
+seas,pagoda,"Pagoda, Thailand ",streamlit-webpage/images/seas/seas_pagoda.JPG
+weu,calanques,"Calanques National Park, France",streamlit-webpage/images/weu/weu_calanques.JPG
+weu,pic_du_midi_d_ossau,"Pic du Midi d'Ossau, France",streamlit-webpage/images/weu/weu_pic_du_midi_d_ossau.JPG
+eeu,night_budapest,Budapest's Nighttime Glow,streamlit-webpage/images/eeu/eeu_night_budapest.JPG
+seas,cambodia_ruin,Enigmatic Ruins of Cambodia's Historical Past,streamlit-webpage/images/seas/seas_cambodia_ruin.JPG
+seas,wat_phra_kaew,Wat Phra Kaew,streamlit-webpage/images/seas/seas_wat_phra_kaew.JPG
+seas,hochiminh_traffic,"Bustling Traffic in Ho Chi Minh City, Vietnam",streamlit-webpage/images/seas/seas_hochiminh_traffic.JPG
