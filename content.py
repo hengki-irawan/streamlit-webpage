@@ -13,7 +13,7 @@ lottie_aboutme_url = "https://lottie.host/6601a619-033c-49f3-9802-4a1af65013f6/c
 linkedin_url = 'https://www.linkedin.com/in/hengki-i-72082960/'
 
 # ----Photo Gallery----
-image_logs = pd.read_csv("image_logs.csv")
+image_logs = pd.read_csv("streamlit-webpage/image_logs.csv")
 images= {}
 for index in range(len(image_logs)):
     image_path = image_logs.loc[index, 'image_path']
