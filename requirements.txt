@@ -3,3 +3,4 @@ streamlit-lottie
 streamlit_analytics
 Pillow
 pandas
+os

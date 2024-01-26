@@ -4,6 +4,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 from content import *
 from utilities import *
+import os
 
 
 PAGE_ICON = 'images/icon.jpg'
@@ -63,6 +64,7 @@ if st.session_state.section_index == 0:
             
 
 elif st.session_state.section_index == 1:
+   print("Current Working Directory:", os.getcwd())
    with st.container():
         st.subheader(":orange[Photo Gallery]")
         num_columns = 3
