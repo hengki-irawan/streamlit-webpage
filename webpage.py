@@ -1,32 +1,18 @@
 import streamlit as st
-import streamlit_analytics
 from streamlit_lottie import st_lottie
 from PIL import Image
 from content import *
 from utilities import *
-import os
-
+import streamlit_analytics
 
 PAGE_ICON = 'images/icon.jpg'
 LOTTIE_ANIMATION_ABOUTME = load_animation(lottie_aboutme_url)
-
-
 
 # Main Header
 st.set_page_config(page_title="Hengki's gallery", page_icon=Image.open(f"{PAGE_ICON}"))
 st.subheader(":orange[Silent Frames]")
 st.title(":orange[Capturing Quiet Moments: Through My Lens]")
 local_css("style/form_style.css") #to hide streamlit brand
-
-s = f"""
-<style>
-div.stButton > button:hover {{
- color: #1e9ae0;
-}}
-</style>
-"""
-
-st.markdown(s, unsafe_allow_html=True)
 
 
 # Buttons
@@ -68,7 +54,7 @@ elif st.session_state.section_index == 1:
         st.subheader(":orange[Photo Gallery]")
         num_columns = 3
         num_rows = len(images) // num_columns + (len(images) % num_columns > 0)
-        
+        print(num_rows)
         gallery_cols = st.columns(num_columns)
 
         for i, (image_path, description) in enumerate(images.items()):
